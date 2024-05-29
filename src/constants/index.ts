@@ -1,4 +1,4 @@
-import { backend, binaryTrees, cp, docker, frontend, kafka, linkedList, redis, aws, movix } from '../assets';
+import { backend, cp, frontend, kafka, aws, movix } from '../assets';
 import { python, sql, django, flask, css, git, html, javascript, mongodb, nodejs, reactjs, tailwind, materialui, typescript, api, bookRecommender, flightPricePredictor, creditCardFraudDetection, roadAccidentDashboard} from '../assets';
 
 export const resumeLink = "https://drive.google.com/file/d/1Um3p-bN1T3MhBbYfHodtWvWTtkM-aFlE/view";
