@@ -1,5 +1,5 @@
 import { backend, cp, frontend, kafka, aws, movix } from '../assets';
-import { python, sql, django, flask, css, git, html, javascript, mongodb, nodejs, reactjs, tailwind, materialui, typescript, api, bookRecommender, flightPricePredictor, creditCardFraudDetection, roadAccidentDashboard} from '../assets';
+import { python, sql, django, flask, css, git, html, javascript, mongodb, nodejs, reactjs, tailwind, tableau, spark, materialui, typescript, api, bookRecommender, flightPricePredictor, creditCardFraudDetection, roadAccidentDashboard, uberDataEngineering} from '../assets';
 
 export const resumeLink = "https://drive.google.com/file/d/1Um3p-bN1T3MhBbYfHodtWvWTtkM-aFlE/view";
 
@@ -44,7 +44,7 @@ export const websites = [
         title: 'Movix', 
         description: "A user-friendly website designed to help users search for movies to watch. Utilizing the TMDB API, it provides detailed movie information including synopses, ratings, and trailers. Users can easily browse and find new movie recommendations. The frontend is built with React for a smooth experience, styled with SCSS, and the backend is powered by Node.js to handle API requests efficiently. This website aims to enhance your movie discovery process.", 
         stack: [reactjs, css, javascript, nodejs, api],
-        // stack_titles: ["React", "scss", "Javascript", "Node.js", "Api"],
+
         link: 'https://movix-alpha-steel.vercel.app/',
         source: "https://github.com/Parth-05/Movix"
     },
@@ -62,16 +62,16 @@ export const websites = [
         link: 'https://flight-price-predictor-08xr.onrender.com/',
         source: "https://github.com/Parth-05/Flight-Price-Prediction/blob/main/Flight%20Price%20Prediction%20EDA.ipynb"
     },
-    // {
-    //     title: 'Portfolio', 
-    //     description: 'My humble portfolio website', 
-    //     stack: [reactjs, tailwind, typescript],
-    //     link: '',
-    //     source: ""
-    // },
 ]
 
 export const projects = [
+    {
+        title: "Uber Data Engineering",
+        description: "This project involves the analysis of Uber data from November 2023 to February 2024. The primary goal was to extract, transform, and load (ETL) the data using Apache Spark, create a data warehouse, and generate key performance indicators (KPIs) and insights. The final step was to visualize these insights using Tableau and publish a comprehensive dashboard.",
+        stack: [python, spark, tableau],
+        source: "https://github.com/Parth-05/uber-data-engineer",
+        media: uberDataEngineering
+    },
     {
         title: "Book Recommendation System",
         description: "This project is a user-friendly website designed to help users find book recommendations by searching for a single book. Leveraging a Python-based, data-driven recommendation system, it provides personalized book suggestions tailored to user preferences. Utilizing popularity-based algorithms and collaborative filtering, it ensures accurate and relevant recommendations. The frontend is built with React for a smooth and responsive user experience, while SCSS is used for elegant styling. The backend, powered by Flask, efficiently handles API requests and data processing. This website aims to enhance the book discovery process, making it easier for users to find their next great read.",
@@ -103,7 +103,7 @@ export const projects = [
     {
         title: "Road Accident Dashboard using Tableau",
         description: "This project aimed to improve road safety by conducting comprehensive data analysis to identify key performance indicators (KPIs) such as accident frequency, high-risk locations, and peak incident times. By implementing advanced data visualization techniques in Tableau, the project enhanced the understanding of key accident risk factors. It presented road accident trends and patterns in an accessible manner. Additionally, the project increased the reliability and accuracy of accident hotspot identification for road safety planning by identifying and resolving data inconsistencies within the dashboard. This work demonstrates the effective use of data analysis and visualization to drive targeted intervention opportunities and improve safety trends. The project's outcomes contribute significantly to informed decision-making in road safety planning.",
-        stack: [python],
+        stack: [python, tableau],
         source: "https://public.tableau.com/app/profile/parth.marathe/viz/AnalysisofFatalAccidentsDashboard/ANALYSISOFFATALACCIDENTSDASHBOARD",
         media: roadAccidentDashboard
     },

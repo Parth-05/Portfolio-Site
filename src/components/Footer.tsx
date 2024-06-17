@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <div className="mt-20">
-            <p className={`${isLight ? "text-black" : "text-white"} text-center md:text-right md:mr-10`}>© 2023 - All Rights Reserved</p>
+            <p className={`${isLight ? "text-black" : "text-white"} text-center md:text-right md:mr-10`}>© 2024 - All Rights Reserved</p>
         </div>
     )
 }

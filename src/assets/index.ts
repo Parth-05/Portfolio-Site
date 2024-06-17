@@ -27,6 +27,8 @@ import flask from './tech/flask.png';
 import springboot from './tech/springboot.png';
 import redis from './tech/redis.png';
 import kafka from './tech/kafka.png';
+import tableau from "./tech/tableau.png";
+import spark from "./tech/spark.png";
 
 import leetcodeLight from './social/leetcodeLight.svg';
 import leetcodeDark from './social/leetcodeDark.svg';
@@ -48,6 +50,7 @@ import movix from './projects/Movix.png';
 import flightPricePredictor from './projects/flight-price-predictor.png'
 import creditCardFraudDetection from './projects/credit-card-fraud-detection.png';
 import roadAccidentDashboard from './projects/road-accident-dashboard.png'
+import uberDataEngineering from './projects/uber-data-engineering.png'
 
 export {
   logo,
@@ -79,6 +82,8 @@ export {
   typescript,
   redis,
   kafka,
+  tableau,
+  spark,
   leetcodeLight,
   leetcodeDark,
   linkedin,
@@ -96,5 +101,6 @@ export {
   movix,
   flightPricePredictor,
   creditCardFraudDetection,
-  roadAccidentDashboard
+  roadAccidentDashboard,
+  uberDataEngineering
 };
