@@ -1,4 +1,4 @@
-import { backend, cp, frontend, kafka, aws, movix } from '../assets';
+import { backend, cp, frontend, kafka, aws, flixview } from '../assets';
 import { python, sql, django, flask, css, git, html, javascript, mongodb, nodejs, reactjs, tailwind, tableau, spark, materialui, typescript, api, bookRecommender, flightPricePredictor, creditCardFraudDetection, roadAccidentDashboard, uberDataEngineering} from '../assets';
 
 export const resumeLink = "https://drive.google.com/file/d/1MgDc_lIYJxaRt0Ap6_VgcGA4R3ioBiT9/view";
@@ -41,12 +41,12 @@ export const languages = [
 
 export const websites = [
     {
-        title: 'Movix', 
+        title: 'FlixView', 
         description: "A user-friendly website designed to help users search for movies to watch. Utilizing the TMDB API, it provides detailed movie information including synopses, ratings, and trailers. Users can easily browse and find new movie recommendations. The frontend is built with React for a smooth experience, styled with SCSS, and the backend is powered by Node.js to handle API requests efficiently. This website aims to enhance your movie discovery process.", 
         stack: [reactjs, css, javascript, nodejs, api],
 
-        link: 'https://movix-alpha-steel.vercel.app/',
-        source: "https://github.com/Parth-05/Movix"
+        link: 'https://flix-view.vercel.app/',
+        source: "https://github.com/Parth-05/FlixView"
     },
     {
         title: 'BookWise', 
@@ -80,11 +80,11 @@ export const projects = [
         media: bookRecommender
     },
     {
-        title: "Movix",
+        title: "FlixView",
         description: "This project is a user-friendly website designed to help users search for movies to watch. Utilizing the TMDB API, it provides comprehensive movie information, including synopses, ratings, and trailers, allowing users to make informed choices. Users can easily browse through a vast database of movies and discover new recommendations based on their interests. The frontend is built with React, ensuring a smooth and responsive user experience, while SCSS is used for elegant and maintainable styling. The backend, powered by Node.js, efficiently handles API requests and server-side operations. With intuitive navigation and detailed movie insights, this website aims to enhance your movie discovery process, making it enjoyable and straightforward.",
         stack: [javascript, html, css, git],
-        source: "https://github.com/Parth-05/Movix",
-        media: movix
+        source: "https://github.com/Parth-05/FlixView",
+        media: flixview
     },
     {
         title: "Flight Price Predictor",

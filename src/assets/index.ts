@@ -46,7 +46,7 @@ import linkedList from './projects/LinkedList.jpg';
 import binaryTrees from './projects/BinaryTrees.jpg';
 import dsakit from './projects/dsakit.png';
 import bookRecommender from './projects/book-recommender.png';
-import movix from './projects/Movix.png';
+import flixview from './projects/Flixview.png';
 import flightPricePredictor from './projects/flight-price-predictor.png'
 import creditCardFraudDetection from './projects/credit-card-fraud-detection.png';
 import roadAccidentDashboard from './projects/road-accident-dashboard.png'
@@ -98,7 +98,7 @@ export {
   binaryTrees,
   dsakit,
   bookRecommender,
-  movix,
+  flixview,
   flightPricePredictor,
   creditCardFraudDetection,
   roadAccidentDashboard,
