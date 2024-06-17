@@ -1,7 +1,7 @@
 import { backend, cp, frontend, kafka, aws, movix } from '../assets';
 import { python, sql, django, flask, css, git, html, javascript, mongodb, nodejs, reactjs, tailwind, tableau, spark, materialui, typescript, api, bookRecommender, flightPricePredictor, creditCardFraudDetection, roadAccidentDashboard, uberDataEngineering} from '../assets';
 
-export const resumeLink = "https://drive.google.com/file/d/1Um3p-bN1T3MhBbYfHodtWvWTtkM-aFlE/view";
+export const resumeLink = "https://drive.google.com/file/d/1MgDc_lIYJxaRt0Ap6_VgcGA4R3ioBiT9/view";
 
 export const aboutMe = `Hello, I am Parth Marathe. \n I am passionate about working in a challenging environment where I can utilize and apply my knowledge and skills which would enable me to fulfill organizational goals. \n Currently, I am pursuing an MS in Data Analytics from San Jose State University and during my academic pursuits, I have taken courses in several areas of study, including Database Management Systems, Big Data, Data Visualization, Deep Learning, and Machine Learning and have done some interesting projects in this domain so far. \n Previously, I worked as a Software Development Engineer at RIA Adivosry, a leading banking software company. \n I have worked with frameworks like Spring Boot to develop RESTful APIs and have utilized Angular.js to develop single-page applications. \n I am eagerly looking for opportunities to prove myself as a better Software Professional.`
 
