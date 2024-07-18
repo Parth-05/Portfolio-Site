@@ -44,9 +44,9 @@ import frontend from './skills/frontend.png';
 import leethub from './projects/leethub.png';
 import linkedList from './projects/LinkedList.jpg';
 import binaryTrees from './projects/BinaryTrees.jpg';
-import dsakit from './projects/dsakit.png';
 import bookRecommender from './projects/book-recommender.png';
 import flixview from './projects/Flixview.png';
+import flipkartClone from "./projects/flipkart-clone.png";
 import flightPricePredictor from './projects/flight-price-predictor.png'
 import creditCardFraudDetection from './projects/credit-card-fraud-detection.png';
 import roadAccidentDashboard from './projects/road-accident-dashboard.png'
@@ -96,9 +96,9 @@ export {
   leethub,
   linkedList,
   binaryTrees,
-  dsakit,
   bookRecommender,
   flixview,
+  flipkartClone,
   flightPricePredictor,
   creditCardFraudDetection,
   roadAccidentDashboard,

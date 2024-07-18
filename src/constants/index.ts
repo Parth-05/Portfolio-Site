@@ -1,4 +1,4 @@
-import { backend, cp, frontend, kafka, aws, flixview } from '../assets';
+import { backend, cp, frontend, kafka, aws, flixview, flipkartClone } from '../assets';
 import { python, sql, django, flask, css, git, html, javascript, mongodb, nodejs, reactjs, tailwind, tableau, spark, materialui, typescript, api, bookRecommender, flightPricePredictor, creditCardFraudDetection, roadAccidentDashboard, uberDataEngineering} from '../assets';
 
 export const resumeLink = "https://drive.google.com/file/d/1MgDc_lIYJxaRt0Ap6_VgcGA4R3ioBiT9/view";
@@ -62,6 +62,13 @@ export const websites = [
         link: 'https://flight-price-predictor-08xr.onrender.com/',
         source: "https://github.com/Parth-05/Flight-Price-Prediction/blob/main/Flight%20Price%20Prediction%20EDA.ipynb"
     },
+    {
+        title: 'Flipkart Clone', 
+        description: 'The app is designed to assist users in purchasing products online, built with the MERN stack: MongoDB, Express.js, React.js, and Node.js. Utilizing MongoDB, the app efficiently stores user information and product data. The web application features a user-friendly interface, enabling users to search for products effortlessly.', 
+        stack: [reactjs, materialui, mongodb],
+        link: 'https://flipkart-clone-kappa-eight.vercel.app/',
+        source: "https://github.com/Parth-05/Flipkart-Clone"
+    },
 ]
 
 export const projects = [
@@ -85,6 +92,13 @@ export const projects = [
         stack: [javascript, html, css, git],
         source: "https://github.com/Parth-05/FlixView",
         media: flixview
+    },
+    {
+        title: 'Flipkart Clone', 
+        description: 'The app is designed to assist users in purchasing products online, built with the MERN stack: MongoDB, Express.js, React.js, and Node.js. Utilizing MongoDB, the app efficiently stores user information and product data. The web application features a user-friendly interface, enabling users to search for products effortlessly.', 
+        stack: [reactjs, materialui, mongodb],
+        source: "https://github.com/Parth-05/Flipkart-Clone",
+        media: flipkartClone
     },
     {
         title: "Flight Price Predictor",
