@@ -1,7 +1,7 @@
 import { backend, cp, frontend, kafka, aws, flixview, flipkartClone } from '../assets';
 import { python, sql, django, flask, css, git, html, javascript, mongodb, nodejs, reactjs, tailwind, tableau, spark, materialui, typescript, api, bookRecommender, flightPricePredictor, creditCardFraudDetection, roadAccidentDashboard, uberDataEngineering} from '../assets';
 
-export const resumeLink = "https://drive.google.com/file/d/1gczZ_Pzxm3QIwZzZ72gZcIpgs8xpyGqE/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1NfQMY6FrtGIzhRmpCmPDRllP9hIzJOAi/view?usp=sharing";
 
 export const aboutMe = `Hello, I am Parth Marathe. \n I’m a MS in Applied Data Science graduate from San Jose State University, passionate about solving real-world problems through software engineering, AI, and data-driven solutions.\n Previously, I worked as a Software Development Engineer at RIA Advisory, where I built scalable backend systems using Spring Boot and developed dynamic single-page applications with Angular.js for enterprise banking platforms.\n Alongside my academic and professional journey, I’ve built several end-to-end software projects, ranging from machine learning applications and deep learning models to full-stack web platforms and big data pipelines. These experiences have helped me develop a strong foundation in both development and data.\n I’m currently seeking full-time opportunities in Software Development, Data Science, AI/ML, Data Engineering, or Data Analyst roles, where I can contribute to impactful projects, apply my skills, and continue to grow as a technology professional.`
 
